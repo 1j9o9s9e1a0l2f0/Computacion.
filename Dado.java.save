@@ -1,0 +1,9 @@
+public class Dado {
+	private int dado;
+
+	public Dado() {
+		}
+	public int getdado1() {
+		return dado;
+		}
+}

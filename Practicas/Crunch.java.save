@@ -1,0 +1,17 @@
+import java.util.Scanner;
+public class Crunch {
+	public static void main( String[] args) {
+		String nom;
+		String crunch;
+		int edad;
+		Scanner teclado = new Scanner( System.in );
+		Crear la clase Sope con los siguientes campos de datos: un String para el ingrediente principal, como queso, frijoles, papa, etc., otro String para el tipo de masa, como maíz blanco, maíz de color, nopal, etc., y un double para el precio, como 10.00. Incluir métodos accesores y mutadores para cada uno de los campos.
+		System.out.print("¿Cual es tu nombre? ");
+		nom = teclado.nextLine();
+		System.out.print("¿Cuantos Años tienes? ");
+		edad = teclado.nextInt()
+		System.out.println("Tu nombre es " + nom);
+		System.out.println("Tienes " + edad + "años.");
+		System.out.println("Si te gusta " + crunch + " llegale no pierdes nada.");
+	}
+}
